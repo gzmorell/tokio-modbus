@@ -57,7 +57,7 @@ pem = "3.0.3"
 webpki = "0.22.4"
 
 [features]
-default = ["rtu", "tcp"]
+default = ["tcp-server"]
 rtu = [
     "dep:futures-core",
     "futures-util/sink",
